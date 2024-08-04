@@ -19,4 +19,4 @@ function VariantChoice({ value, name, variant, setVariant }) {
   );
 }
 
-export default VariantChoice;
+export default React.memo(VariantChoice);
